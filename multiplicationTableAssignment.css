@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(ade.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-size: 110%;
+    background-blend-mode: darken;
+  }
+
+#mainContainer {
+    width: 100%;
+    
+}
+
+.strong-txt {
+  color: orange;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.strong-txt span {
+  position: relative;
+  display: inline-block;
+  font-size: 45px;
+  text-transform: uppercase;
+  animation: flips 10s infinite;
+  animation-delay: calc(.10s * var(--i))
+}
+
+@keyframes flips {
+  0%,50% {
+    transform: rotateY(360deg) ;
+    color: white;
+  }
+}
+
+h3 {
+  color: cyan;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.my-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.select-options {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+label {
+  color: white;
+  display: flex;
+  margin: auto 5px;
+  font-size: 15px;
+}
+
+#myOptions {
+  cursor: pointer;
+  border-radius: 5px;
+  border: thick solid gray;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+#myTable {
+  width: 100%;
+  border: 2px solid gray;
+  margin-top: 30px;
+  color: white;
+}
+
+tr {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+th, td {
+  width: auto;
+  border: 1px solid gray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 3px;
+  background-color: purple;
+  opacity: .7;
+}
+
+th {
+  font-size: x-large;
+}
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="multiplicationTableAssignment.css">
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <div class="strong-txt">
+            <span style="--i:1">w</span>
+            <span style="--i:2">e</span>
+            <span style="--i:3">l</span>
+            <span style="--i:4">c</span>
+            <span style="--i:5">o</span>
+            <span style="--i:6">m</span>
+            <span style="--i:7">e  &nbsp;</span>
+            <span style="--i:8">t</span>
+            <span style="--i:9">o &nbsp;</span>
+            <span style="--i:10">o</span>
+            <span style="--i:11">u</span>
+            <span style="--i:12">r  &nbsp;</span>
+            <span style="--i:13">a</span>
+            <span style="--i:14">r</span>
+            <span style="--i:15">i</span>
+            <span style="--i:16">t</span>
+            <span style="--i:17">h</span>
+            <span style="--i:18">m</span>
+            <span style="--i:19">e</span>
+            <span style="--i:20">t</span>
+            <span style="--i:21">i</span>
+            <span style="--i:22">c  &nbsp;</span>
+            <span style="--i:23">o</span>
+            <span style="--i:24">p</span>
+            <span style="--i:25">e</span>
+            <span style="--i:26">r</span>
+            <span style="--i:27">a</span>
+            <span style="--i:28">t</span>
+            <span style="--i:29">i</span>
+            <span style="--i:30">o</span>
+            <span style="--i:31">n &nbsp;</span>
+            <span style="--i:32">s</span>
+            <span style="--i:33">y</span>
+            <span style="--i:34">s</span>
+            <span style="--i:35">t</span>
+            <span style="--i:36">e</span>
+            <span style="--i:37">m.</span>
+        </div>
+        <h3>Kindly enter the number of rows and column you want to generate into the two space provided below and then select the type of operation you want</h3>
+        <div class="my-input">
+            <input type="text" id="row" placeholder="Enter numbers of rows">
+            <input type="text" id="col" placeholder="Enter numbers of column">
+        </div>
+        <div class="select-options">
+            <label for="myOptions">Select an operator:</label>
+            <select name="" id="myOptions" onchange="test()">
+                <option></option>
+                <option value="1">Multiplication</option>
+                <option value="2">Addition</option>
+                <option value="3">Subtraction</option>
+                <option value="4">Division</option>
+            </select>
+        </div>
+
+        <table id="myTable"></table>
+    </div>
+    <script type="text/javascript" src="multiplicationTableAssignment.js"></script>
+</body>
+</html>
